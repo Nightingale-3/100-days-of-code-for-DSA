@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #include <stdio.h>
 int main()
 {
@@ -23,3 +24,30 @@ int main()
     printf("The Maximum value is: %d\n", max);
     printf("The Minimum value is: %d", min);
 }
+=======
+#include <stdio.h>
+int main()
+{
+    int n;
+    printf("Enter the number of elements in the array: ");
+    scanf("%d", &n);
+
+    int a[n];
+    printf("Enter the elements of the array: ");
+    for(int i = 0; i < n; i++)
+        scanf("%d", &a[i]);
+
+    int max = a[0], min = a[0];
+
+    for(int i = 1; i < n; i++)
+    {
+        if(a[i] > max)
+            max = a[i];
+        if(a[i] < min)
+            min = a[i];
+    }
+
+    printf("The Maximum value is: %d\n", max);
+    printf("The Minimum value is: %d", min);
+}
+>>>>>>> 81bb7fdcb2d2271c5e10b782a3ddf38974703e78
