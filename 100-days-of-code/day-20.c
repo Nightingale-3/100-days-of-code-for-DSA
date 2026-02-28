@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #include <stdio.h>
 int main()
 {
@@ -25,7 +24,8 @@ int main()
     }
 
     printf("Number of subarrays with sum zero: %d", count);
-=======
+    return 0;
+}
 #include <stdio.h>
 int main()
 {
@@ -52,5 +52,5 @@ int main()
     }
 
     printf("Number of subarrays with sum zero: %d", count);
->>>>>>> 81bb7fdcb2d2271c5e10b782a3ddf38974703e78
+    return 0;
 }
